@@ -11,9 +11,9 @@ This project is built on google colab
 
 !pip install dlib
 
-from google.colab import drive
-drive.mount('/content/drive')
-!ls ./content/gdrive
+from google.colab import drive<br>
+drive.mount('/content/drive')<br>
+!ls ./content/gdrive<br>
 
 # How to use code ?
 1. Make two directories, one for known faces and another one for unknown faces
@@ -25,3 +25,5 @@ drive.mount('/content/drive')
 3. Link your google drive with google colab
 4. Run the prerequisite.
 5. Run the code
+
+# Feel free to use the code
